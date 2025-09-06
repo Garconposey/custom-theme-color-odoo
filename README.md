@@ -221,7 +221,6 @@ Ce projet est sous licence LGPL-3. Voir le fichier `LICENSE` pour plus de détai
 
 ## 👤 Auteur
 
-**Auxil HOUESSOU**
 - Email: info@auxilhouessou.com
 - GitHub: [@Garconposey](https://github.com/Garconposey)
 
