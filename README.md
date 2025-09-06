@@ -12,12 +12,12 @@
   <img
     src="https://mrbotofficiel.com/wp-content/uploads/2025/09/Avant-custom_theme.webp"
     alt="Avant Module Custom Theme"
-    width="200"
+    width="500"
   />
   <img
     src="https://mrbotofficiel.com/wp-content/uploads/2025/09/Apres-custom_theme.webp"
     alt="Apres Module Custom Theme"
-    width="200"
+    width="500"
   />
 </p>
 
