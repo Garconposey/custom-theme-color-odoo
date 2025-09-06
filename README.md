@@ -4,9 +4,26 @@
 ![License](https://img.shields.io/badge/License-LGPL--3-green)
 ![Status](https://img.shields.io/badge/Status-Production%20Ready-brightgreen)
 
+
+<h2 align="center">Custom Theme Color: Changer la couleur violette par defaut de Odoo</h2>
+
+
+<p align="center">
+  <img
+    src="https://mrbotofficiel.com/wp-content/uploads/2025/09/Avant-custom_theme.webp"
+    alt="Avant Module Custom Theme"
+    width="200"
+  />
+  <img
+    src="https://mrbotofficiel.com/wp-content/uploads/2025/09/Apres-custom_theme.webp"
+    alt="Apres Module Custom Theme"
+    width="200"
+  />
+</p>
+
 ## 🎨 Description
 
-**Custom Theme Color Odoo** est un module qui permet de personnaliser facilement les couleurs de l'interface Odoo en remplaçant la couleur violette par défaut (`#875A7B`) par vos couleurs d'entreprise.
+**Custom Theme Color Odoo** est un module qui permet de personnaliser facilement les couleurs de l'interface Odoo en remplaçant la couleur violette par défaut (`#875A7B`) par vos couleurs d'entreprise ou autres.
 
 ### ✨ Fonctionnalités
 
