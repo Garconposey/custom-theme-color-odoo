@@ -1,0 +1,13 @@
+/* =================================
+   VARIABLES CSS CENTRALISÉES
+   🎨 MODIFIEZ ICI POUR CHANGER TOUTES LES COULEURS
+   ================================= */
+:root {
+    --custom-primary: #2DBAE8;      /* Couleur principale */
+    --custom-primary-dark: #024155; /* Version foncée */
+    --custom-primary-light: #2DBAE854; /* Version claire */
+
+    /* Variable optionnelle pour la barre latérale du tableau de bord */
+    /* Changez 'inherit' par votre couleur si vous voulez personnaliser */
+    --dashboard-sidebar-bg: inherit; /* Garde la couleur par défaut */
+}

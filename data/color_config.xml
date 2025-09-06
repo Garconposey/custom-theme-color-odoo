@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <!-- Configuration centralisée des couleurs -->
+    <record id="theme_color_primary" model="ir.config_parameter">
+        <field name="key">custom_theme.color_primary</field>
+        <field name="value">#2E8B57</field>
+    </record>
+    
+    <record id="theme_color_primary_dark" model="ir.config_parameter">
+        <field name="key">custom_theme.color_primary_dark</field>
+        <field name="value">#1F5F3F</field>
+    </record>
+    
+    <record id="theme_color_primary_light" model="ir.config_parameter">
+        <field name="key">custom_theme.color_primary_light</field>
+        <field name="value">#4AA973</field>
+    </record>
+</odoo>

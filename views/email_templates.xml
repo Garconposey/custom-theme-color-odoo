@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <!-- Injection des styles personnalisés dans TOUS les emails -->
+    <record id="custom_mail_layout_style" model="ir.ui.view">
+        <field name="name">Custom Mail Layout Style</field>
+        <field name="key">custom_theme.mail_layout_style</field>
+        <field name="type">qweb</field>
+        <field name="inherit_id" ref="mail.mail_notification_light"/>
+        <field name="arch" type="xml">
+            <xpath expr="//head" position="inside">
+                <style type="text/css">
+                    /* Variables CSS pour les emails - synchronisées avec variables.css */
+                    :root {
+                        --custom-primary: #2E8B57;      /* Couleur principale */
+                        --custom-primary-dark: #1F5F3F; /* Version foncée */
+                        --custom-primary-light: #4AA973; /* Version claire */
+                    }
+                    
+                    /* Application TRÈS agressive aux boutons d'email */
+                    .btn-primary, 
+                    .o_mail_action_button,
+                    table.btn-primary,
+                    table.btn-primary td,
+                    .btn.btn-primary,
+                    a.btn-primary,
+                    input[type="submit"],
+                    button[type="submit"] {
+                        background-color: var(--custom-primary) !important;
+                        border-color: var(--custom-primary) !important;
+                        color: white !important;
+                    }
+                    
+                    /* Ciblage des éléments avec couleur violette codée en dur */
+                    *[style*="#875A7B"] {
+                        background-color: var(--custom-primary) !important;
+                        border-color: var(--custom-primary) !important;
+                    }
+                    
+                    *[bgcolor="#875A7B"] {
+                        background-color: var(--custom-primary) !important;
+                    }
+                    
+                    td[bgcolor="#875A7B"],
+                    table[bgcolor="#875A7B"] {
+                        background-color: var(--custom-primary) !important;
+                    }
+                    
+                    /* Ciblage spécifique du bouton "Accepter l'invitation" */
+                    a[href*="signup"] {
+                        background-color: var(--custom-primary) !important;
+                        border-color: var(--custom-primary) !important;
+                        color: white !important;
+                    }
+                    
+                    /* Fallback pour les emails HTML anciens */
+                    table[style*="#875A7B"],
+                    td[style*="#875A7B"],
+                    div[style*="#875A7B"] {
+                        background-color: var(--custom-primary) !important;
+                        border-color: var(--custom-primary) !important;
+                    }
+                    
+                    /* Ciblage direct des couleurs hexadécimales */
+                    table[bgcolor="#875A7B"] {
+                        background-color: var(--custom-primary) !important;
+                    }
+                    
+                    td[bgcolor="#875A7B"] {
+                        background-color: var(--custom-primary) !important;
+                    }
+                </style>
+            </xpath>
+        </field>
+    </record>
+</odoo>
